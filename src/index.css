@@ -42,7 +42,7 @@ p {
   color: var(--Tomato)
 }
 
-@media (max-width:765px) {
+@media (max-width:375px) {
   body {
     background: var(--White);
   }
