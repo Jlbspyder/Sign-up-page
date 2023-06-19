@@ -51,7 +51,7 @@ p {
   margin-top: 0;
  }
  .attribution { 
-  color: var(--DarkSlateGrey)
+  color: var(--DarkSlateGrey);
   display: none;
 }
 }
