@@ -9,7 +9,7 @@ const Newsletter = ({ email, setEmail, error, handleSubmit }) => {
       <img
         src="/illustration-sign-up-mobile.svg"
         alt="signup"
-        className="md:block md:hidden w-[500px]"
+        className="md:hidden w-[500px]"
       />
       <div className="mt-10 md:mt-20">
         <h1 className="text-5xl text-darkSlateGrey font-bold ml-10 ">
