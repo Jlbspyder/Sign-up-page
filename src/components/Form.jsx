@@ -60,7 +60,7 @@ const Newsletter = ({ email, setEmail, error, handleSubmit }) => {
           <button
             type="submit"
             onClick={handleSubmit}
-            className="bg-darkSlateGrey text-white text-lg md:text-sm text-center h-16 w-[340px] ml-8 mt-5 md:h-10 font-bold rounded-lg md:rounded-md hover:bg-tomato"
+            className="bg-darkSlateGrey text-white text-lg md:text-sm text-center h-16 w-[340px] ml-8 mt-5 md:h-10 font-bold rounded-lg md:rounded-md hover:bg-gradient-to-r hover:from-pink-500 hover:to-tomato"
           >
             Subscribe to monthly newsletter
           </button>
