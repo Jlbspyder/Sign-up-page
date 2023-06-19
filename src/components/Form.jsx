@@ -25,7 +25,7 @@ const Newsletter = ({ email, setEmail, error, handleSubmit }) => {
           </p>
         </div>
         <div className="flex flex-row space-x-3 items-center">
-          <img src="/icon-list.svg" alt="icon" className="ml-8 mt-3" />
+          <img src="/icon-list.svg" alt="icon" className="ml-8 mt-1 md:mt-3" />
           <p className="text-lg md:text-sm text-charcoalGrey mt-3 w-[280px]">
             Measuring to ensure updates are a success
           </p>
