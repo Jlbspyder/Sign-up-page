@@ -52,6 +52,6 @@ p {
  }
  .attribution { 
   color: var(--DarkSlateGrey);
-  display: none;
+  margin-top: 250px;
 }
 }
