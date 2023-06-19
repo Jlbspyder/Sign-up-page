@@ -42,12 +42,12 @@ p {
   color: var(--Tomato)
 }
 
-@media (max-width:375px) {
+@media (max-width:765px) {
   body {
     background: var(--White);
   }
  .container {
-  height: 1000px;
+  height: 930px;
   margin-top: 0;
  }
  .attribution { 
