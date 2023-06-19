@@ -41,7 +41,7 @@ const Newsletter = ({ email, setEmail, error, handleSubmit }) => {
             <label htmlFor="email" className="ml-8 mt-10 md:mt-5 font-bold">
               Email address
             </label>
-            <div className="text-tomato mt-10 md:mt-5 mr-10 md:mr-0 text-sm font-bold">
+            <div className="text-tomato mt-5 mr-10 md:mr-0 text-sm font-bold">
               {error}
             </div>
           </div>
