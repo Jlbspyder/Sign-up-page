@@ -18,26 +18,26 @@ const Newsletter = ({ email, setEmail, error, handleSubmit }) => {
         <p className="text-lg md:text-sm text-charcoalGrey ml-10 mt-5 md:w-[320px]">
           Join 60,000+ product managers receiving monthly updates on:
         </p>
-        <div className="flex flex-row space-x-3 items-center">
+        <div className="flex space-x-3 items-center">
           <img src="/icon-list.svg" alt="icon" className="ml-8 md:mt-5" />
           <p className="text-lg md:text-sm text-charcoalGrey mt-5">
             Product discovery and building what matters
           </p>
         </div>
-        <div className="flex flex-row space-x-3 items-center">
+        <div className="flex space-x-3 items-center">
           <img src="/icon-list.svg" alt="icon" className="ml-8 -mt-2 md:mt-3" />
           <p className="text-lg md:text-sm text-charcoalGrey mt-3 w-[280px]">
             Measuring to ensure updates are a success
           </p>
         </div>
-        <div className="flex flex-row space-x-3 items-center">
+        <div className="flex space-x-3 items-center">
           <img src="/icon-list.svg" alt="icon" className="ml-8 mt-3" />
           <p className="text-lg md:text-sm text-charcoalGrey mt-3">
             And much more!
           </p>
         </div>
         <div className="flex flex-col">
-          <div className="flex flex-row justify-between items-center">
+          <div className="flex justify-between items-center">
             <label htmlFor="email" className="ml-8 mt-10 md:mt-5 font-bold">
               Email address
             </label>
