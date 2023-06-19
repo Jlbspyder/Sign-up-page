@@ -50,4 +50,7 @@ p {
   height: 930px;
   margin-top: 0;
  }
+ .attribution { 
+  color: var(--DarkSlateGrey)
+}
 }
