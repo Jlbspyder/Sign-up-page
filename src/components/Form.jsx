@@ -49,6 +49,7 @@ const Newsletter = ({ email, setEmail, error, handleSubmit }) => {
             type="email"
             placeholder="email@company.com"
             value={email}
+            autoComplete="email"
             onChange={(e) => setEmail(e.target.value)}
             className={
               error
