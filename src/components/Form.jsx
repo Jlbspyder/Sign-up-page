@@ -51,11 +51,7 @@ const Newsletter = ({ email, setEmail, error, handleSubmit }) => {
             value={email}
             autoComplete="email"
             onChange={(e) => setEmail(e.target.value)}
-            className={
-              error
-                ? "border-tomato border-solid bg-error rounded-md border-2 p-3 mt-1 h-16 md:h-10 ml-8 w-[340px]  text-tomato outline-tomato cursor-pointer"
-                : "border-grey-100 border-solid rounded-md border-2 p-3 mt-1 h-16 md:h-10 ml-8 w-[340px] cursor-pointer text-darkSlateGrey outline-darkSlateGrey"
-            }
+            className={`border-grey-100 border-solid rounded-md border-2 p-3 mt-1 h-16 md:h-10 ml-8 w-[340px] cursor-pointer text-darkSlateGrey outline-darkSlateGrey ${error && "border-tomato border-solid bg-error text-tomato outline-tomato"}`}
           />
           <button
             type="submit"
