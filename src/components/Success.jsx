@@ -11,7 +11,7 @@ const Success = ({ dismiss, email }) => {
         Please open it and click the button inside to confirm your subscription.
       </p>
       <button
-        className="bg-darkSlateGrey text-white text-lg md:text-sm text-center font-bold w-[330px] ml-8 mt-80 md:mt-5 h-16 md:h-10 rounded-md hover:bg-tomato"
+        className="bg-darkSlateGrey text-white text-lg md:text-sm text-center font-bold w-[330px] ml-8 mt-80 md:mt-5 h-16 md:h-10 rounded-md hover:bg-gradient-to-r hover:from-pink-500 hover:to-tomato"
         onClick={dismiss}
       >
         Dismiss message
